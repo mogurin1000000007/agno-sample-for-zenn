@@ -1,0 +1,40 @@
+[project]
+name = "agno-sample-for-zenn"
+version = "0.1.0"
+description = "Sample project using Agno for Vector DB with pgvector"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "agno>=0.1.0",
+    "pandas>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "PyPDF2>=3.0.0",
+    "requests>=2.31.0",
+    "aiofiles>=24.1.0",
+    "sqlalchemy>=2.0.41",
+    "psycopg>=3.2.9",
+    "pgvector>=0.4.1",
+    "textract>=1.6.5",
+    "psycopg2-binary>=2.9.10",
+    "google-genai>=1.27.0",
+    "openai>=1.97.1",
+    "chonkie[st]>=1.1.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.5.0",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black" 

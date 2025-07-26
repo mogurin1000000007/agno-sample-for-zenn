@@ -1,0 +1,65 @@
+Software Development Cost Estimation Guide
+
+1. Overview
+In software development projects, accurate cost estimation is the key to success. This document describes common cost estimation methods.
+
+2. Major Estimation Methods
+2.1 Function Point Method
+This is a method for estimating effort based on the complexity and scale of functions.
+- Evaluate inputs, outputs, inquiries, internal logical files, and external interface files.
+- Weight by complexity (simple, average, complex).
+- Apply technical adjustment factors.
+
+2.2 Analogous Estimating
+This is a method for estimating based on the actual data of past similar projects.
+- Analyze the similarity with past projects.
+- Adjust for differences in scale, technology, and team.
+- Judgment by experienced members is important.
+
+2.3 COCOMO Model
+This is a mathematical model developed by Barry Boehm. 
+- Basic COCOMO: Considers only scale.
+- Intermediate COCOMO: Considers cost drivers.
+- Detailed COCOMO: Detailed analysis for each development phase.
+
+2.4 Three-Point Estimating
+This is a method that combines three estimates: optimistic, pessimistic, and most likely.
+Expected Value = (Optimistic + 4 × Most Likely + Pessimistic) / 6
+
+3. Points for Improving Estimation Accuracy
+3.1 Clarification of Requirements
+- Detailing functional and non-functional requirements.
+- Aligning understanding with stakeholders.
+- Assessing the risk of specification changes.
+
+3.2 Evaluation of Technical Risks
+- Learning costs associated with adopting new technologies.
+- Costs of resolving technical debt.
+- Difficulty of achieving performance requirements.
+
+3.3 Consideration of Team Skills
+- Experience and skill level of development members.
+- Presence or absence of domain knowledge.
+- Teamwork and communication skills.
+
+4. Best Practices for Estimation Management
+4.1 Progressive Elaboration
+Improve estimation accuracy as the project progresses.
+- Planning phase: ±50%
+- Requirements definition phase: ±25%
+- Design phase: ±10%
+
+4.2 Setting Buffers
+Set appropriate buffers to handle uncertainty.
+- Technical risk: 10-20%
+- Requirement change risk: 15-30%
+- External dependency risk: 5-15%
+
+4.3 Accumulation of Actual Data
+Record actual data after project completion and use it to improve future estimation accuracy.
+- Use actual data to improve estimation accuracy.
+- Analyze the reasons for estimation errors.
+- Share lessons learned with the team.
+
+5. Summary
+Accurate cost estimation is achieved by combining multiple methods and making continuous improvements. It is important to select the optimal method according to the maturity of the organization and the characteristics of the project.- 

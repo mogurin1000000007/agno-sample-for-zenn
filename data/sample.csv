@@ -1,0 +1,9 @@
+product_id,product_name,description,price,warranty_period,category
+A001,Wireless Headphones,High-quality wireless headphones with noise cancellation feature. Perfect for music lovers and professionals.,15000,2 years,Electronics
+A002,Smart Watch,Advanced smartwatch with health monitoring features including heart rate and sleep tracking.,25000,1 year,Electronics
+A003,Laptop Stand,Ergonomic laptop stand made from aluminum. Adjustable height and angle for comfortable working.,8000,6 months,Accessories
+A004,Bluetooth Speaker,Portable Bluetooth speaker with 360-degree sound and waterproof design.,12000,1 year,Electronics
+A005,USB-C Hub,Multi-port USB-C hub with HDMI, USB 3.0, and SD card slots for enhanced connectivity.,6000,2 years,Accessories
+B001,Project Management Software,Comprehensive project management software for teams. Includes task tracking and collaboration tools.,Monthly subscription,N/A,Software
+B002,Data Analytics Platform,Advanced data analytics platform with machine learning capabilities for business intelligence.,Enterprise license,1 year support,Software
+B003,Cloud Storage Service,Secure cloud storage service with 1TB capacity and real-time synchronization.,Annual subscription,N/A,Software 
