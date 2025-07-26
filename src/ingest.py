@@ -8,7 +8,6 @@ import argparse
 import os
 import time
 
-from agno.document.chunking.semantic import SemanticChunking
 from agno.embedder.google import GeminiEmbedder
 from agno.knowledge.csv import CSVKnowledgeBase
 from agno.knowledge.document import DocumentKnowledgeBase
@@ -17,8 +16,6 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-
-CHUNK_SIZE = 100
 
 
 def setup_vector_db():
@@ -40,9 +37,6 @@ def load_text_knowledge(file_path: str, vector_db: PgVector):
         text_knowledge = DocumentKnowledgeBase(
             path=file_path,
             vector_db=vector_db,
-            chunking_strategy=SemanticChunking(
-                embedder=GeminiEmbedder(), chunk_size=CHUNK_SIZE
-            ),
         )
 
         # Load the knowledge into vector database
@@ -64,9 +58,6 @@ def load_csv_knowledge(file_path: str, vector_db: PgVector):
         csv_knowledge = CSVKnowledgeBase(
             path=file_path,
             vector_db=vector_db,
-            chunking_strategy=SemanticChunking(
-                embedder=GeminiEmbedder(), chunk_size=CHUNK_SIZE
-            ),
         )
 
         # Load the knowledge into vector database
